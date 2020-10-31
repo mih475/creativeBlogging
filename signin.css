@@ -1,0 +1,158 @@
+body {
+  font-size: 16px;
+  background: #f9f9f9;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  }
+  h2 {
+  text-align: center;
+  text-decoration: underline;
+  }
+  form {
+  width: 700px;
+  background: #fff;
+  padding: 15px 40px 40px;
+  border: 1px solid #ccc;
+  margin: 50px auto 0;
+  border-radius: 5px;
+  }
+  label {
+  display: block;
+  margin-bottom: 5px
+  }
+  label i {
+  color: #999;
+  font-size: 80%;
+  }
+  input, select {
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 2px;
+  text-align: top;
+  }
+  .row {
+  padding-bottom: 10px;
+  }
+
+  #com,#des {
+    height:400px;
+    text-align: top;
+  }
+
+  #info {
+    background-color: #593c9e; 
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    
+    margin: 2px 2px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+
+  .addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #593c9e;
+    color: white;
+    float: center;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 12px;
+  }
+  .addBtn:hover {
+    background-color: #bbb;
+  }
+  
+  .form-inline {
+  border: 1px solid #ccc;
+  padding: 8px 10px 4px;
+  border-radius: 2px;
+  }
+  .form-inline label, .form-inline input {
+  display: inline-block;
+  width: auto;
+  padding-right: 15px;
+  }
+  .error {
+  color: red;
+  font-size: 90%;
+  }
+  input[type="submit"] {
+  font-size: 110%;
+  font-weight: 100;
+  background: #006dcc;
+  border-color: #016BC1;
+  box-shadow: 0 3px 0 #0165b6;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+  }
+  input[type="submit"]:hover {
+  background: #0165b6;
+  }
+
+  div#main_blog_content ul li{
+    align-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  div#main_blog_content ul li h4#blogTitle{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  div#main_blog_content ul li h4#summaryDescription{
+    font-size: 22px;
+    font-style: normal;
+  }
+
+  div#main_blog_content ul li h5#authorName{
+      font-size: 1.125rem;
+       margin-bottom: 1rem;
+       color:#223d61;
+       font-family: 'Roboto', sans-serif;
+       font-weight: 700;
+       text-transform: uppercase;
+  }
+  #blog_title{
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    margin-bottom: 1.1rem;
+    text-transform: uppercase;
+  }
+  div#main_blog_content ul li h4#blogTitle{
+    font-size: 1.6rem;
+       line-height: 2.2rem;
+       margin-bottom: 1.1rem;
+       text-transform: uppercase;
+  }
+
+  div#main_blog_content ul li p{
+    font-style: normal; 
+    font-size: medium; 
+    text-align: justify;
+    /* margin-left: 5%;
+    margin-right: 5% */
+  }
+
+  #summaryDescription{
+    align-content: center;
+  }
+  
+  div#main_blog_content ul li div#separator3{
+      height: 2px;
+      width: 30px;
+      margin:20px auto;
+      background: #5e9a28;
+  }
